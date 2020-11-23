@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">flexbe</div>
+                    <nav class="header__nav">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Сайты</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Квизы</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Тарифы</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Академия</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Помощь</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__btns">
+                        <a href="#" class="header__enter-btn">Войти</a>
+                        <a href="#" class="header__create-btn">Создать сайт</a>
+                    </div>
+                    <div class="mobile-menu">
+                        <div class="mobile-menu__btns">
+                            <a href="#" class="header__enter-btn mobile-menu__enter-btn">Войти</a>
+                            <a href="#" class="header__create-btn mobile-menu__create-btn">Создать сайт</a>
+                        </div>
+                        <nav class="mobile-menu__nav">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Сайты</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Квизы</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Тарифы</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Академия</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Помощь</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="mini-menu">
+                        <div class="mini-menu__hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="mini-menu__cross">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="home">
+            <div class="container home__container">
+                <div class="home__inner">
+                    <div class="home__text">
+                        <h1 class="home__title">Конструктор сайтов для бизнеса</h1>
+                        <div class="home__subtitle">
+                            <p>
+                                Создайте сайт самостоятельно за несколько часов, даже если вы никогда не делали этого
+                                раньше.
+                            </p>
+                        </div>
+                        <ul class="home__list">
+                            <li class="home__item">
+                                <a href="#" class="home__link">
+                                    <img src="img/icon-site.png" alt="">
+                                    Сайты
+                                </a>
+                            </li>
+                            <li class="home__item">
+                                <a href="#" class="home__link">
+                                    <img src="img/icon-landing.png" alt="">
+                                    Лендинги
+                                </a>
+                            </li>
+                            <li class="home__item">
+                                <a href="#" class="home__link">
+                                    <img src="img/icon-shop.png" alt="">
+                                    Магазины
+                                </a>
+                            </li>
+                            <li class="home__item">
+                                <a href="#" class="home__link">
+                                    <img src="img/icon-qwiz.png" alt="">
+                                    Квизы
+                                </a>
+                            </li>
+                        </ul>
+                        <button class="home__btn">Попробовать бесплатно</button>
+                    </div>
+                    <div class="home__slider-box">
+                        <div class="home__slider">
+                            <div class="home__slider-item">
+                                <img src="img/image-1.png" alt="home-image">
+                            </div>
+                            <div class="home__slider-item">
+                                <img src="img/image-1.png" alt="home-image">
+                            </div>
+                            <div class="home__slider-item">
+                                <img src="img/image-1.png" alt="home-image">
+                            </div>
+                            <div class="home__slider-item">
+                                <img src="img/image-1.png" alt="home-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="modal">
+            <div class="modal__close">
+                <div class="modal__close-cross"></div>
+            </div>
+            <div class="modal__content">
+                <div class="modal__text">
+                    <span>Хотите попробовать?</span>
+                    <span>Зарегистрируйтесь</span>
+                </div>
+                <form class="form" action="#">
+                    <input class="form__input" type="text" placeholder="Имя" required>
+                    <input class="form__input" type="email" placeholder="Email" required>
+                    <button class="form__btn" type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
